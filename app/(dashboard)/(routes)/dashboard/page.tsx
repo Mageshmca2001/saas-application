@@ -5,10 +5,9 @@ import { cn } from "@/lib/utils";
 import {
   ArrowRight,
   Code,
-  ImageIcon,
+ 
   MessageSquare,
-  Music,
-  VideoIcon,
+  
 } from "lucide-react";
 import { useRouter } from "next/navigation";
 
@@ -21,30 +20,7 @@ const tools = [
     arrowColor: "text-violet-600",
     href: "/conversation",
   },
-  {
-    label: "Image Generation",
-    icon: ImageIcon,
-    color: "text-pink-700",
-    bgColor: "bg-pink-400/10",
-    arrowColor: "text-pink-700",
-    href: "/image",
-  },
-  {
-    label: "Video Generation",
-    icon: VideoIcon,
-    color: "text-orange-400",
-    bgColor: "bg-orange-500/10",
-    arrowColor: "text-orange-600",
-    href: "/video",
-  },
-  {
-    label: "Music Generation",
-    icon: Music,
-    color: "text-yellow-400",
-    bgColor: "bg-yellow-300/10",
-    arrowColor: "text-yellow-500",
-    href: "/music",
-  },
+
   {
     label: "Code Generation",
     icon: Code,
