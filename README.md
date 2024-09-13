@@ -1,8 +1,8 @@
-# MuseAI
+# Discovery.Ai
 
 ## Overview
 
-MuseAI is a versatile Software as a Service (SaaS) application that brings together a curated set of powerful AI tools to unleash your creativity. Whether you're a developer, designer, or artist, MuseAI provides cutting-edge capabilities to generate code, images, 3-second short videos, and music clips. Say goodbye to creative blocks and welcome a new era of inspiration with MuseAI.
+Dicovery.AI is a versatile Software as a Service (SaaS) application that brings together a curated set of powerful AI tools to unleash your creativity. Whether you're a developer, designer, or artist, Discovery.Ai provides cutting-edge capabilities to generate code, images, 3-second short videos, and music clips. Say goodbye to creative blocks and welcome a new era of inspiration with Discovery.Ai
 
 ## Features
 
@@ -10,9 +10,7 @@ MuseAI is a versatile Software as a Service (SaaS) application that brings toget
 
 - **Image Creation:** Create stunning and unique images with the help of advanced AI algorithms.
 
-- **Short Video Generator:** Craft engaging short videos with just a few clicks.
 
-- **Music Clip Composer:** Generate music clips to add the perfect soundtrack to your creations.
 
 ## Technologies Used
 
@@ -39,7 +37,7 @@ MuseAI is a versatile Software as a Service (SaaS) application that brings toget
 2. Navigate to the project directory:
 
    ```bash
-   cd MuseAi
+   cd saas-application
    ```
 
 3. Install dependencies:
@@ -62,7 +60,7 @@ MuseAI is a versatile Software as a Service (SaaS) application that brings toget
 
 ## Deployment
 
-Ensure to set up deployment configurations based on your hosting provider. MuseAI  is compatible with platforms like Vercel, Netlify, and traditional cloud providers.
+Ensure to set up deployment configurations based on your hosting provider. Dicovery.Ai is compatible with platforms like Vercel, Netlify, and traditional cloud providers.
 
 ## Contributing
 
@@ -78,4 +76,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Happy creating with MuseAI! If you have any questions or feedback, please don't hesitate to reach out.
