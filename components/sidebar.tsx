@@ -6,9 +6,6 @@ import {
   ImageIcon,
   LayoutDashboard,
   MessageSquare,
-  Music,
-  Settings,
-  VideoIcon,
 } from "lucide-react";
 import { Montserrat } from "next/font/google";
 import Image from "next/image";
@@ -30,24 +27,7 @@ const routes = [
     href: "/conversation",
     color: "text-violet-600",
   },
-  {
-    label: "Image Generation",
-    icon: ImageIcon,
-    href: "/image",
-    color: "text-pink-700",
-  },
-  {
-    label: "Video Generation",
-    icon: VideoIcon,
-    href: "/video",
-    color: "text-orange-500",
-  },
-  {
-    label: "Music Generation",
-    icon: Music,
-    href: "/music",
-    color: "text-yellow-300",
-  },
+  
   {
     label: "Code Generation",
     icon: Code,
