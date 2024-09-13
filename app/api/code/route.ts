@@ -9,7 +9,7 @@ const openai = new OpenAI({
 
 const instructionMessage: ChatCompletionMessageParam = {
   role: "system",
-  content: "You are a code generator. You write it as short as possible. You only write the code, no explanations, no comments, and no imports. You must answer only in markdown code snippets. Complete in 75 tokens"
+  content: "'You are a code generator. You must answer only in markdown code snippets. Use code comments for explanations.'"
 }
 
 export async function POST(
@@ -36,7 +36,6 @@ export async function POST(
       model: "gpt-3.5-turbo",
       messages: [instructionMessage, ...messages],
       temperature: 0.2,
-      max_tokens: 75
     });
 
     return NextResponse.json(response.choices[0].message);
